@@ -1,6 +1,8 @@
 var ACPToolKit = (function () {
     // ACPToolKit depends on DataStorage. Must be loaded after DataStorage.js.
     var module = {};
+    var validPid = ['P01', 'P02', 'P03', 'P04', 'P05', 'P06',
+                       'P07', 'P08', 'P09', 'P10', 'P11', 'P12'];
 
     module.setCurrentParticipantId = function (pid) {
         DataStorage.setItem('pid', pid);
@@ -8,12 +10,24 @@ var ACPToolKit = (function () {
 
     module.getCurrentParticipantId = function () {
         var pid = DataStorage.getItem('pid');
+
         if (!pid) {
             alert('Current participant not set!');
             pid = prompt('Enter current participant ID:').toString();
+
+            while (!isValidId(pid)) {
+              alert('Please enter a valid Participant ID (pid)!');
+              pid = prompt('Enter current participant ID:').toString();
+            }
             this.setCurrentParticipantId(pid);
         }
         return pid;
+    }
+
+    function isValidId (pid) {
+      if (validPid.includes(pid))
+        return true;
+      else return false;
     }
 
     module.clearAllData = function () {
@@ -84,6 +98,7 @@ var ACPToolKit = (function () {
 
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
+            $('.js-expt-texttype').text(options.text_type);
             $('.js-expt-stimuli').text(options.stimuli);
 
             // Clean up DOM
@@ -133,6 +148,7 @@ var ACPToolKit = (function () {
                 console.error('There is no trial running right now!');
                 return {};
             }
+
             var endTime = new Date().getTime();
             currentTrialOptions.start_time = startTime;
             currentTrialOptions.end_time = endTime;

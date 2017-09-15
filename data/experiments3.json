@@ -2,48 +2,6 @@
     "experiments": [
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "in the summer"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "Arabian Peninsula"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "smartphone makes them"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "3220"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "1982"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "23602"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
             "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
@@ -127,46 +85,46 @@
             "stimuli": "443,000"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "least dense aeroice"
+            "stimuli": "in the summer"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "check their phones"
+            "stimuli": "Arabian Peninsula"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
             "stimuli": "smartphone makes them"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "2012"
+            "stimuli": "3220"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "78237"
+            "stimuli": "1982"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "4523"
+            "stimuli": "23602"
         },
         {
             "technique": "TRADITIONAL",
@@ -253,46 +211,46 @@
             "stimuli": "41230"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "misery and hate"
+            "stimuli": "least dense aeroice"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "stick configuration"
+            "stimuli": "check their phones"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "students focus on key words"
+            "stimuli": "smartphone makes them"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "100,000"
+            "stimuli": "2012"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "32423"
+            "stimuli": "78237"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "73528"
+            "stimuli": "4523"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -338,6 +296,48 @@
         },
         {
             "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "misery and hate"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "stick configuration"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "students focus on key words"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "text_type": "number",
+            "data_file": "data/texts.json",
+            "stimuli": "100,000"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "text_type": "number",
+            "data_file": "data/texts.json",
+            "stimuli": "32423"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "text_type": "number",
+            "data_file": "data/texts.json",
+            "stimuli": "73528"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
             "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
@@ -377,48 +377,6 @@
             "text_type": "number",
             "data_file": "data/texts.json",
             "stimuli": "1843"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "paint it black"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "hear the call"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "activity on a smartphone"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "21332"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "12331"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "3231"
         },
         {
             "technique": "TRADITIONAL",
@@ -505,46 +463,46 @@
             "stimuli": "17,002"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "science behind student learning"
+            "stimuli": "paint it black"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "6 million people"
+            "stimuli": "hear the call"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "cross into southern Georgia"
+            "stimuli": "activity on a smartphone"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "6237"
+            "stimuli": "21332"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "1909"
+            "stimuli": "12331"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "25,123"
+            "stimuli": "3231"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -631,46 +589,46 @@
             "stimuli": "6232.732"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "unstable as the temperature"
+            "stimuli": "science behind student learning"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "hurricane-strength winds"
+            "stimuli": "6 million people"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "fire another round"
+            "stimuli": "cross into southern Georgia"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "2378"
+            "stimuli": "6237"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "1920"
+            "stimuli": "1909"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "2007"
+            "stimuli": "25,123"
         },
         {
             "technique": "TRADITIONAL",
@@ -755,6 +713,48 @@
             "text_type": "number",
             "data_file": "data/texts.json",
             "stimuli": "1100"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "unstable as the temperature"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "hurricane-strength winds"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "fire another round"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "number",
+            "data_file": "data/texts.json",
+            "stimuli": "2378"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "number",
+            "data_file": "data/texts.json",
+            "stimuli": "1920"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "number",
+            "data_file": "data/texts.json",
+            "stimuli": "2007"
         }
     ]
 }

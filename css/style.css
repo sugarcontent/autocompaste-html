@@ -20,6 +20,11 @@ body.experiment-page {
   margin-bottom: 0;
 }
 
+#counter {
+  font-size:20pt;
+  text-align: center;
+}
+
 /**
  * Main ACP styles
  */
@@ -60,7 +65,6 @@ body.experiment-page {
 
 #autocompaste-display > .wm-window .modal-body {
   padding: 5px;
-  overflow-y: auto;
 }
 
 #autocompaste-display > .wm-window .modal-body .highlighted {

@@ -35,9 +35,9 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h1>Welcome!</h1>
                     <hr>
-                    <p>The startup interface provides the basic instructions to your participants, and also collect input from the participant/experimenter the participant ID so that you can generate the correct data log for a particular experiment session.</p>
+                    <p>Thank you for participating in this experiment.</p>
 
-                    <p>This is a template. Please write your participant number ID given by your experimenter. Participant IDs should only consist of alphanumeric characters.</p>
+                    <p>Please write your participant number ID given by your experimenter. Participant IDs should only consist of alphanumeric characters.</p>
                     <form class="form-inline" id="pid-form">
                         <div class="form-group">
                             <label for="pid">Participant ID</label>
@@ -56,11 +56,15 @@
         <script src="js/main.js"></script>
 
         <script>
+
+          var validPid = ['P01', 'P02', 'P03', 'P04', 'P05', 'P06',
+                             'P07', 'P08', 'P09', 'P10', 'P11', 'P12'];
+
             $(function () {
                 $('#pid-form').submit(function (event) {
                     event.preventDefault();
                     var pid = $('#pid').val();
-                    if (pid) {
+                    if (pid && validPid.includes(pid)) {
                         ACPToolKit.setCurrentParticipantId(pid);
                         window.location = 'questionnaire-pre.html';
                     } else {

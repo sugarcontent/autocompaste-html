@@ -2,45 +2,24 @@
     "experiments": [
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "in the summer"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "Arabian Peninsula"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "smartphone makes them"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
+            "granularity": "sentence",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "3220"
+            "stimuli": "95000"
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
+            "granularity": "sentence",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "1982"
+            "stimuli": "8342321"
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
+            "granularity": "sentence",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "23602"
+            "stimuli": "80123"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -65,24 +44,24 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "95000"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
+            "granularity": "paragraph",
             "text_type": "number",
             "data_file": "data/texts.json",
             "stimuli": "8342321"
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
+            "granularity": "paragraph",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "80123"
+            "stimuli": "1132123"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
+            "text_type": "number",
+            "data_file": "data/texts.json",
+            "stimuli": "443,000"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -107,87 +86,45 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
+            "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "8342321"
+            "stimuli": "3220"
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
+            "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "1132123"
+            "stimuli": "1982"
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
+            "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "443,000"
+            "stimuli": "23602"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "least dense aeroice"
+            "stimuli": "in the summer"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "check their phones"
+            "stimuli": "Arabian Peninsula"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
             "stimuli": "smartphone makes them"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "2012"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "78237"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "4523"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "sentence",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "The screams of pain as my comrades fall."
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "sentence",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "Go and try, you'll never break me"
-        },
-        {
-            "technique": "TRADITIONAL",
-            "granularity": "sentence",
-            "text_type": "text",
-            "data_file": "data/texts.json",
-            "stimuli": "Air pollution is a drag for renewable energy."
         },
         {
             "technique": "TRADITIONAL",
@@ -212,24 +149,24 @@
         },
         {
             "technique": "TRADITIONAL",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+            "stimuli": "The screams of pain as my comrades fall."
         },
         {
             "technique": "TRADITIONAL",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Fuchs has developed a routine that embeds working memory exercises within math lessons. Designed for second-graders at risk for math difficulties, the program has students focus on key words in a word problem and hold the words in mind while breaking the problem into smaller segments and choosing the right math tools to solve the problem"
+            "stimuli": "Go and try, you'll never break me"
         },
         {
             "technique": "TRADITIONAL",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "The first of three games is in testing, assigned as homework for 300 kids in Santa Barbara and New York City schools. In the game, students must quickly adapt to rule changes as aliens land on Earth and request help gathering supplies."
+            "stimuli": "Air pollution is a drag for renewable energy."
         },
         {
             "technique": "TRADITIONAL",
@@ -253,67 +190,67 @@
             "stimuli": "41230"
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "misery and hate"
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "stick configuration"
+            "stimuli": "Fuchs has developed a routine that embeds working memory exercises within math lessons. Designed for second-graders at risk for math difficulties, the program has students focus on key words in a word problem and hold the words in mind while breaking the problem into smaller segments and choosing the right math tools to solve the problem"
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "students focus on key words"
+            "stimuli": "The first of three games is in testing, assigned as homework for 300 kids in Santa Barbara and New York City schools. In the game, students must quickly adapt to rule changes as aliens land on Earth and request help gathering supplies."
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "100,000"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "32423"
+            "stimuli": "2012"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "73528"
+            "stimuli": "78237"
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "text_type": "text",
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "79 percent of smartphone users have their phone on or near them for all but two hours of their waking day—63 percent keep it with them for all but one hour."
+            "stimuli": "4523"
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Air pollution is a drag for renewable energy. Dust and other sky-darkening air pollutants slash solar energy production by 17 to 25 percent across parts of India, China and the Arabian Peninsula, a new study estimates."
+            "stimuli": "least dense aeroice"
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "You'll fire your musket but I'll run you through"
+            "stimuli": "check their phones"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "smartphone makes them"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -338,24 +275,24 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "A series of rapid-fire solar flares is providing the first chance to test a new theory of why the sun releases its biggest outbursts when its activity is ramping down. Migrating bands of magnetism that meet at the sun’s equator may cause the biggest flares, even as the sun is going to sleep."
+            "stimuli": "79 percent of smartphone users have their phone on or near them for all but two hours of their waking day—63 percent keep it with them for all but one hour."
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Students must learn to stay focused in the face of distraction, to direct actions toward a goal and to hold what they have just seen or heard in mind while they work with it. These abilities are part of a set of cognitive skills called executive function."
+            "stimuli": "Air pollution is a drag for renewable energy. Dust and other sky-darkening air pollutants slash solar energy production by 17 to 25 percent across parts of India, China and the Arabian Peninsula, a new study estimates."
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "For the report, IDC conducted an online survey of 7,444 Android and iPhone users, ages 18 to 44, during a week in March."
+            "stimuli": "You'll fire your musket but I'll run you through"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -379,67 +316,67 @@
             "stimuli": "1843"
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "paint it black"
+            "stimuli": "A series of rapid-fire solar flares is providing the first chance to test a new theory of why the sun releases its biggest outbursts when its activity is ramping down. Migrating bands of magnetism that meet at the sun’s equator may cause the biggest flares, even as the sun is going to sleep."
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "hear the call"
+            "stimuli": "Students must learn to stay focused in the face of distraction, to direct actions toward a goal and to hold what they have just seen or heard in mind while they work with it. These abilities are part of a set of cognitive skills called executive function."
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "activity on a smartphone"
+            "stimuli": "For the report, IDC conducted an online survey of 7,444 Android and iPhone users, ages 18 to 44, during a week in March."
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "21332"
-        },
-        {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "12331"
+            "stimuli": "100,000"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "3231"
+            "stimuli": "32423"
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "sentence",
-            "text_type": "text",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "When asked which activity on a smartphone makes them feel most “connected,” 49 percent said text messaging, 43 percent indicating talking on the phone, 40 percent said messaging on Facebook."
+            "stimuli": "73528"
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "sentence",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "The Bugle sounds and the charge begins"
+            "stimuli": "misery and hate"
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "sentence",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "They simulated more than 300 different nanoscale structures and evaluated how stable the structures were under low pressure."
+            "stimuli": "stick configuration"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "students focus on key words"
         },
         {
             "technique": "TRADITIONAL",
@@ -464,24 +401,24 @@
         },
         {
             "technique": "TRADITIONAL",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "McIntosh has an idea why. In a series of papers, including a 2015 paper in Nature Communications, he and colleagues argued that complex sunspots like AR 2673 and their forceful flares are the result of opposing bands of magnetism vying for supremacy."
+            "stimuli": "When asked which activity on a smartphone makes them feel most “connected,” 49 percent said text messaging, 43 percent indicating talking on the phone, 40 percent said messaging on Facebook."
         },
         {
             "technique": "TRADITIONAL",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Bands of rain will continue to drench the region, with up to 3 inches (8 centimeters) of rainfall expected in central Florida, and as much as 6 inches (15 cm) predicted for northern Florida."
+            "stimuli": "The Bugle sounds and the charge begins"
         },
         {
             "technique": "TRADITIONAL",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Irma, which recently weakened to a tropical storm, is still producing some wind gusts that are close to hurricane strength as it continues to move inland over northern Florida and toward Georgia."
+            "stimuli": "They simulated more than 300 different nanoscale structures and evaluated how stable the structures were under low pressure."
         },
         {
             "technique": "TRADITIONAL",
@@ -505,67 +442,67 @@
             "stimuli": "17,002"
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "science behind student learning"
+            "stimuli": "McIntosh has an idea why. In a series of papers, including a 2015 paper in Nature Communications, he and colleagues argued that complex sunspots like AR 2673 and their forceful flares are the result of opposing bands of magnetism vying for supremacy."
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "6 million people"
+            "stimuli": "Bands of rain will continue to drench the region, with up to 3 inches (8 centimeters) of rainfall expected in central Florida, and as much as 6 inches (15 cm) predicted for northern Florida."
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "cross into southern Georgia"
+            "stimuli": "Irma, which recently weakened to a tropical storm, is still producing some wind gusts that are close to hurricane strength as it continues to move inland over northern Florida and toward Georgia."
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "6237"
-        },
-        {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "1909"
+            "stimuli": "21332"
         },
         {
-            "technique": "AUTOCOMPASTE",
+            "technique": "TRADITIONAL",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "25,123"
+            "stimuli": "12331"
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
-            "text_type": "text",
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "Four out of five smartphone users check their phones within the first 15 minutes of waking up. Among them, 80 percent say it’s the first thing they do in the morning."
+            "stimuli": "3231"
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "The science behind student learning is so far based on carefully controlled studies, primarily with college students."
+            "stimuli": "paint it black"
         },
         {
-            "technique": "AUTOCOMPASTE",
-            "granularity": "sentence",
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Strong winds, storm surges and floods are also still major concerns in Florida today."
+            "stimuli": "hear the call"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "activity on a smartphone"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -590,24 +527,24 @@
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Students must learn to stay focused in the face of distraction, to direct actions toward a goal and to hold what they have just seen or heard in mind while they work with it. These abilities are part of a set of cognitive skills called executive function."
+            "stimuli": "Four out of five smartphone users check their phones within the first 15 minutes of waking up. Among them, 80 percent say it’s the first thing they do in the morning."
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Giant, jelly-like blobs have been sighted off the western coast of Norway, but the identities of these mysterious objects have scientists stumped."
+            "stimuli": "The science behind student learning is so far based on carefully controlled studies, primarily with college students."
         },
         {
             "technique": "AUTOCOMPASTE",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Though Irma's time as a hurricane is done, the storm spent more than 11 days at hurricane strength, more than any other storm since Hurricane Ivan in 2004."
+            "stimuli": "Strong winds, storm surges and floods are also still major concerns in Florida today."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -631,67 +568,67 @@
             "stimuli": "6232.732"
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "unstable as the temperature"
+            "stimuli": "Students must learn to stay focused in the face of distraction, to direct actions toward a goal and to hold what they have just seen or heard in mind while they work with it. These abilities are part of a set of cognitive skills called executive function."
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "hurricane-strength winds"
+            "stimuli": "Giant, jelly-like blobs have been sighted off the western coast of Norway, but the identities of these mysterious objects have scientists stumped."
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "fire another round"
+            "stimuli": "Though Irma's time as a hurricane is done, the storm spent more than 11 days at hurricane strength, more than any other storm since Hurricane Ivan in 2004."
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "phrase",
-            "text_type": "number",
-            "data_file": "data/texts.json",
-            "stimuli": "2378"
-        },
-        {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "1920"
+            "stimuli": "6237"
         },
         {
-            "technique": "TRADITIONAL",
+            "technique": "AUTOCOMPASTE",
             "granularity": "phrase",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "2007"
+            "stimuli": "1909"
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "sentence",
-            "text_type": "text",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "Take a look at me cause I could not care at all"
+            "stimuli": "25,123"
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "sentence",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "The mighty roar of the Russian guns"
+            "stimuli": "science behind student learning"
         },
         {
-            "technique": "TRADITIONAL",
-            "granularity": "sentence",
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Vecchione said that the only similar one he has ever seen was from a photograph, many years ago, taken near Alaska."
+            "stimuli": "6 million people"
+        },
+        {
+            "technique": "AUTOCOMPASTE",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "cross into southern Georgia"
         },
         {
             "technique": "TRADITIONAL",
@@ -716,24 +653,24 @@
         },
         {
             "technique": "TRADITIONAL",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Working memory, which allows a person to hold on to information long enough to use it, is often a weakness in children who struggle with math, says educational psychologist Lynn Fuchs of Vanderbilt University in Nashville."
+            "stimuli": "Take a look at me cause I could not care at all"
         },
         {
             "technique": "TRADITIONAL",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "The shallow areas where divers are sighting these egg masses are near a deep-water drop-off, Vecchione said, so it's possible that the eggs belong to a deep-sea creature."
+            "stimuli": "The mighty roar of the Russian guns"
         },
         {
             "technique": "TRADITIONAL",
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Working memory, which allows a person to hold on to information long enough to use it, is often a weakness in children who struggle with math"
+            "stimuli": "Vecchione said that the only similar one he has ever seen was from a photograph, many years ago, taken near Alaska."
         },
         {
             "technique": "TRADITIONAL",
@@ -755,6 +692,69 @@
             "text_type": "number",
             "data_file": "data/texts.json",
             "stimuli": "1100"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "Working memory, which allows a person to hold on to information long enough to use it, is often a weakness in children who struggle with math, says educational psychologist Lynn Fuchs of Vanderbilt University in Nashville."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "The shallow areas where divers are sighting these egg masses are near a deep-water drop-off, Vecchione said, so it's possible that the eggs belong to a deep-sea creature."
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "paragraph",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "Working memory, which allows a person to hold on to information long enough to use it, is often a weakness in children who struggle with math"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "number",
+            "data_file": "data/texts.json",
+            "stimuli": "2378"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "number",
+            "data_file": "data/texts.json",
+            "stimuli": "1920"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "number",
+            "data_file": "data/texts.json",
+            "stimuli": "2007"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "unstable as the temperature"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "hurricane-strength winds"
+        },
+        {
+            "technique": "TRADITIONAL",
+            "granularity": "phrase",
+            "text_type": "text",
+            "data_file": "data/texts.json",
+            "stimuli": "fire another round"
         }
     ]
 }

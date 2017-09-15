@@ -41,52 +41,97 @@
 
                     <form id="pre-expt-form">
                         <div class="form-group">
-                            <label for="q1">Question 1 - Text</label>
-                            <input type="text" class="form-control" id="q1" name="q1" placeholder="Enter answer">
+                            <label for="q1">Question 1 - Please state your name</label>
+                            <input type="text" class="form-control" id="q1" name="name" placeholder="Enter name">
                         </div>
                         <div class="form-group">
-                            <label for="q2">Question 2 - Radio</label>
+                            <label for="q2">Question 2 - Please state your age</label>
+                            <input type="text" class="form-control" id="q2" name="age" placeholder="Enter age">
+                        </div>
+                        <div class="form-group">
+                            <label for="q3">Question 3 - Please state your course of study</label>
+                            <input type="text" class="form-control" id="q3" name="degree" placeholder="Enter course of study">
+                        </div>
+                        <div class="form-group">
+                            <label for="q4">Question 4 - Please rate your familiarity with using a keyboard.</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios1" value="radio1">
-                                Radio response 1
+                                <input type="radio" name="q4" id="optionsRadios1" value="1">
+                                Not Familiar
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios2" value="radio2">
-                                Radio response 2
+                                <input type="radio" name="q4" id="optionsRadios2" value="2">
+                                Barely Familiar
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios2" value="3">
+                                Neutral
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios2" value="4">
+                                Familiar
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q2" id="optionsRadios2" value="5">
+                                Very Familiar
                               </label>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="q3">Question 3 - Checkbox</label>
+                            <label for="q5">Question 5 - What operating system do you usually use?</label>
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox" name="q3" value="checkbox1">
-                                Checkbox response 1
+                                <input type="checkbox" name="q5" value="windows">
+                                Windows
                               </label>
                             </div>
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox" name="q3" value="checkbox2">
-                                Checkbox response 2
+                                <input type="checkbox" name="q5" value="macOs">
+                                MacOS
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="q5" value="linux">
+                                Linux
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" name="q5" value="others">
+                                Other operating system
                               </label>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="q4">Question 4 - Select Options</label>
-                            <select class="form-control" name="q4">
-                                <option value="option1">Option response 1</option>
-                                <option value="option2">Option response 2</option>
-                                <option value="option3">Option response 3</option>
-                                <option value="option4">Option response 4</option>
-                                <option value="option1">Option response 5</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="q5">Question 5 - Textarea</label>
-                            <textarea class="form-control" id="q5" name="q5" placeholder="Enter response"></textarea>
+                            <label for="q6">Question 6 - How would you rate your skill level in editing Microsoft Word documents?</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q6" id="optionsRadios1" value="1">
+                                Novice
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q6" id="optionsRadios2" value="2">
+                                Intermediate
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q6" id="optionsRadios2" value="3">
+                                Experienced
+                              </label>
+                            </div>
                         </div>
                         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                     </form>
