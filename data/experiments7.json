@@ -40,7 +40,7 @@
             "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "The first of three games is in testing, assigned as homework for 300 kids in Santa Barbara and New York City schools. In the game, students must quickly adapt to rule changes as aliens land on Earth and request help gathering supplies."
+            "stimuli": "The first of three games is in testing, assigned as homework for 7890 kids in Santa Barbara and New York City schools. In the game, students must quickly adapt to rule changes as aliens land on Earth and request help gathering supplies."
         },
         {
             "technique": "TRADITIONAL",
@@ -131,7 +131,7 @@
             "granularity": "paragraph",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "8342321"
+            "stimuli": "834321"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -152,7 +152,7 @@
             "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -222,7 +222,7 @@
             "granularity": "sentence",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "8342321"
+            "stimuli": "834321"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -285,7 +285,7 @@
             "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Bands of rain will continue to drench the region, with up to 3 inches (8 centimeters) of rainfall expected in central Florida, and as much as 6 inches (15 cm) predicted for northern Florida."
+            "stimuli": "Bands of rain will continue to drench the region, with up to 33212 inches (834321 centimeters) of rainfall expected in central Florida, and as much as 6 inches (15 cm) predicted for northern Florida."
         },
         {
             "technique": "TRADITIONAL",
@@ -376,7 +376,7 @@
             "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "They simulated more than 300 different nanoscale structures and evaluated how stable the structures were under low pressure."
+            "stimuli": "They simulated more than 30230 different nanoscale structures and evaluated how stable the structures were under low pressure."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -418,7 +418,7 @@
             "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "For the report, IDC conducted an online survey of 7,444 Android and iPhone users, ages 18 to 44, during a week in March."
+            "stimuli": "For the report, IDC conducted an online survey of 3220 Android and iPhone users, ages 13218 to 4421, during a week in March."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -467,7 +467,7 @@
             "granularity": "sentence",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "6223.9"
+            "stimuli": "62239"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -488,14 +488,14 @@
             "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "79 percent of smartphone users have their phone on or near them for all but two hours of their waking day—63 percent keep it with them for all but one hour."
+            "stimuli": "7239 percent of smartphone users have their phone on or near them for all but two hours of their waking day—6332 percent keep it with them for all but one hour."
         },
         {
             "technique": "AUTOCOMPASTE",
             "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Air pollution is a drag for renewable energy. Dust and other sky-darkening air pollutants slash solar energy production by 17 to 25 percent across parts of India, China and the Arabian Peninsula, a new study estimates."
+            "stimuli": "Air pollution is a drag for renewable energy. Dust and other sky-darkening air pollutants slash solar energy production by 17,002 to 25,000 percent across parts of India, China and the Arabian Peninsula, a new study estimates."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -649,7 +649,7 @@
             "granularity": "paragraph",
             "text_type": "number",
             "data_file": "data/texts.json",
-            "stimuli": "6232.732"
+            "stimuli": "6232732"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -663,7 +663,7 @@
             "granularity": "paragraph",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Giant, jelly-like blobs have been sighted off the western coast of Norway, but the identities of these mysterious objects have scientists stumped."
+            "stimuli": "Giant, jelly-like blobs have been sighted off the western 9232 coast of Norway, but the identities of these mysterious objects have scientists stumped."
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -712,7 +712,7 @@
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "cross into southern Georgia"
+            "stimuli": "cross into 1843 southern Georgia"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -740,7 +740,7 @@
             "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "Four out of five smartphone users check their phones within the first 15 minutes of waking up. Among them, 80 percent say it’s the first thing they do in the morning."
+            "stimuli": "Four out of five smartphone users check their phones within the first 1523 minutes of waking up. Among them, 80123 percent say it’s the first thing they do in the morning."
         },
         {
             "technique": "AUTOCOMPASTE",

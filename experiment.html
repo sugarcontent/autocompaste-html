@@ -61,6 +61,7 @@
                     <p>Please copy-paste the following <span class="js-expt-granularity">phrase</span> using the <span class="js-expt-technique">AUTOCOMPASTE</span> technique from one of the open windows.</p>
                     <div id="stimuli" class="alert alert-danger js-expt-stimuli">This is a long stimuli!</div>
                     <button class="btn btn-primary btn-lg" id="next" onclick="next()">Next Task</button>
+                    <button class="btn btn-primary btn-lg" id="end" style="visibility:hidden; display:none" onclick="next()">Click to end Experiment!</button>
                     <button class="btn btn-primary btn-lg" id="breakTime" style="visibility:hidden; display:none" onclick="breakTime()">Break Time!</button>
                 </div>
                 <div id="autocompaste" class="col-sm-9">
@@ -96,7 +97,7 @@
               document.getElementById("breakTime").style.visibility="hidden";
               document.getElementById("breakTime").style.display="none";
               var timer;
-              var count = 60;
+              var count = 1;
               document.getElementById("counter").style.visibility="visible";
               document.getElementById("counter").style.display="block";
               $("#counter").text(count);
@@ -146,11 +147,16 @@
                 if (currentTrial < totalNumberOfTrials) {
                     ACPToolKit.presentTrial(trialsData[currentTrial]);
                     currentTrial += 1;
-                    if ((currentTrial % 12) === 0) {
+                    if ((currentTrial % 12) === 0 && currentTrial !== totalNumberOfTrials) {
                       document.getElementById("next").style.visibility="hidden";
                       document.getElementById("next").style.display="none";
                       document.getElementById("breakTime").style.visibility="visible";
                       document.getElementById("breakTime").style.display="block";
+                    } else if (currentTrial === totalNumberOfTrials) {
+                      document.getElementById("next").style.visibility="hidden";
+                      document.getElementById("next").style.display="none";
+                      document.getElementById("end").style.visibility="visible";
+                      document.getElementById("end").style.display="block";
                     }
                     $('.js-expt-current-trial').text(currentTrial);
                 } else {
