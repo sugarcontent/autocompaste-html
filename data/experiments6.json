@@ -82,7 +82,7 @@
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "smartphone makes them"
+            "stimuli": "smartphone makes 74282 of them"
         },
         {
             "technique": "AUTOCOMPASTE",
@@ -208,7 +208,7 @@
             "granularity": "phrase",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "smartphone makes them"
+            "stimuli": "smartphone makes 74282 of them"
         },
         {
             "technique": "TRADITIONAL",
@@ -488,7 +488,7 @@
             "granularity": "sentence",
             "text_type": "text",
             "data_file": "data/texts.json",
-            "stimuli": "When asked which activity on a smartphone makes them feel most “connected,” 49 percent said text messaging, 43 percent indicating talking on the phone, 40 percent said messaging on Facebook."
+            "stimuli": "When asked which activity on a smartphone makes 74282 of them feel most “connected,” 49423 percent said text messaging, 41233 percent indicating talking on the phone, 40 percent said messaging on Facebook."
         },
         {
             "technique": "TRADITIONAL",
